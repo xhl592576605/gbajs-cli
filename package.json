@@ -1,0 +1,36 @@
+{
+  "name": "gbajs-cli",
+  "version": "1.0.0",
+  "description": "Game Boy Advance emulator for Node.js",
+  "main": "index.js",
+  "bin": {
+    "gbajs": "./bin/gbajs.js"
+  },
+  "scripts": {
+    "start": "node bin/gbajs.js",
+    "test": "mocha tests/**/*.test.js",
+    "test:coverage": "nyc npm test"
+  },
+  "keywords": [
+    "gba",
+    "emulator",
+    "gameboy",
+    "game",
+    "retro"
+  ],
+  "author": "Jeffrey Pfau",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "commander": "^11.0.0",
+    "speaker": "^0.5.4"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "chai": "^4.3.7",
+    "nyc": "^15.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
