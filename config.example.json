@@ -1,0 +1,11 @@
+{
+  "output": "./frames",
+  "fps": 60,
+  "volume": 50,
+  "audio": true,
+  "video": true,
+  "headless": false,
+  "logLevel": "info",
+  "logFile": "./gbajs.log",
+  "save": null
+}
